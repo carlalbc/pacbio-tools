@@ -77,7 +77,6 @@ You should see:
 
 ## Need Help?
 
-- I’ll be away after Thursday, possibly with limited internet access.
-- If anything urgent comes up, I’ll try to respond.
+- I’ll be away from May 30th to June 23rd, possibly with limited internet access.
+- If anything urgent comes up, I’ll try to respond (but I will be in a different continent).
 - For anything else, PacBio tech support can help.
-- Let’s coordinate early Thursday morning if needed.
