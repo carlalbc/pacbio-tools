@@ -1,0 +1,7 @@
+obc2fastq \
+  --input /mnt/pacbio_runs/Run123 \
+  --output /mnt/data/obc2fastq_output \
+  --samplesheet /mnt/pacbio_runs/Run123/SampleSheet.csv \
+  --threadlanes 1 \
+  --threadsperlane 16 \
+  --barcodeallowedmismatches 1

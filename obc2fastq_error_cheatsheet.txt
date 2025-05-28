@@ -1,0 +1,18 @@
+🔍 Error Message Cheat Sheet:
+
+1. [ERROR] Open <...>.obc failed
+   → File not found. Check that the .obc files exist in the run folder path.
+
+2. [ERROR] not all tracks contain the same number of reads
+   → One or more .obc files might be corrupt or truncated.
+
+3. No output FASTQ generated
+   → Check if SampleSheet.csv was loaded and has proper sample/index entries.
+
+4. Undetermined reads only
+   → Possibly wrong or mismatched index sequences in the SampleSheet.
+
+💡 Tips:
+- Ensure all index sequences are exactly 8 bp long (or match your run settings).
+- Confirm lane numbers are correct.
+- If unsure about cycle masks or advanced settings, omit them and let the tool auto-detect.

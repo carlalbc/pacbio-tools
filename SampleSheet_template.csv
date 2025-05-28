@@ -1,0 +1,27 @@
+[Run Information]
+FileFormatVersion,2
+InstrumentPlatform,Onso
+FlowcellBarcode,FC123456
+RunName,MyRunName
+
+[Flow Cell Settings]
+Read1Cycles,150
+Read2Cycles,150
+Index1Cycles,8
+Index2Cycles,8
+CustomPrimer,FALSE
+OBC2FASTQ,TRUE
+
+[Obc2fastq Settings]
+OutputControlFASTQ,TRUE
+I1Mismatches,1
+I2Mismatches,1
+OutputIndexFASTQ,FALSE
+MergeLanes,FALSE
+
+[Samples]
+Biosample,Lane,Index,Index2
+Sample1,1,AATTGCC,TGCTATC
+Sample2,1,TCGACTCA,TCATCGG
+Sample3,2,AAATTGCC,TGCTATC
+Sample4,2,AAGACTCC,ACTAGCA
